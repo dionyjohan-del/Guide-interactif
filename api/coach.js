@@ -2,7 +2,7 @@
     <script>
         // --- Gemini API Call Logic via Serverless Function ---
         // This is the relative endpoint for our serverless function when deployed.
-        const serverUrl = '/api/coach'; 
+        const serverUrl = 'https://guide-interactif.vercel.app/api/coach'; 
 
         async function callCoachAPI(prompt, type, loader, outputElement) {
             // Show loading animation and clear previous output
